@@ -1,7 +1,7 @@
 var baseURL = "https://api.giphy.com/v1/gifs/search?q=";
 var apiKey = "dc6zaTOxFJmzC";
 var inputVal = "";
-var topics = ["Community", "Rick & Morty", "Atlanta", "Strawhat Pirates"];
+var topics = ["Community", "Rick & Morty", "Atlanta", "Strawhat Pirates "];
 var queryURL = "";
 var imgURL = "";
 
@@ -60,7 +60,7 @@ function showClickCallout () {
     $(".click-callout").show();
 }
 
-/* when a button is clicked, the api fetches 6 giphs and displays them as still images */
+f/* when a button is clicked, the api fetches 6 giphs and displays them as still images */
 
 $(document).on("click", ".query-button", function(event) {
     event.preventDefault();

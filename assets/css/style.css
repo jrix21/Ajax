@@ -64,17 +64,12 @@ body {
 
 
 .click-callout {
-	color: black;
-	font-weight: bold;
-	padding: 6px 24px;
-	background: rgba(255,255,255,.5); 
-	border-radius: 6px;
-    margin-bottom: 15px;
+    margin: auto;
+    text-align:  center;
     display: none;
 }
 
 #search-input {
-	width: 100%;
     margin-top: 10px;
     margin-bottom: 15px;
     height: 40px;
@@ -83,18 +78,21 @@ body {
     outline: none;
     box-shadow: none;
     border: 1px solid transparent;
+    text-align: center;
 }
 
 #giphy-results {
+    text-align: center;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 15px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin: auto;
 }
 
 .image-result {
+    margin: auto;
+    text-align: center;
 	height: 250px;
 	width: 250px;
     margin-bottom: 20px;
@@ -106,4 +104,14 @@ body {
   #giphy-results {
     justify-content: center;
   }
+}
+
+#queries {
+    margin: auto;
+    text-align: center;
+    }
+
+form {
+    margin: auto;
+    text-align: center;
 }
